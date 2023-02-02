@@ -1,0 +1,65 @@
+body{
+
+    background: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#principal {
+    
+    background: url(imagens/fundo.png);
+    width: 1700px;
+    height: 300px;
+}
+
+#imagem img {
+
+    width: 150px;
+    margin:20px;
+    border: 1px solid red;
+}
+
+#conteudo {
+
+    position: absolute;
+    margin-top: 20px;
+    top: 0px;
+    left: 10px;
+    padding-left: 200px;
+}
+
+#conteudo span{
+
+    padding-top: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#conteudo h2 {
+
+    color: white;
+    font-size: 30px;
+}
+
+#conteudo ul {
+
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+}
+
+#conteudo ul li {
+
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#conteudo a{
+
+    text-decoration: none;
+    color: blue;
+}
+
+footer{
+
+    text-align: center;
+}
